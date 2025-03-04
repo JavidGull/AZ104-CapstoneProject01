@@ -8,3 +8,4 @@ pip3 install azure-storage-blob azure-storage-file-share azure-storage-file-data
 pip3 install configparser --break-system-packages
 pip install --ignore-installed Flask --break-system-packages
 sudo mkdir -p /var/www/html/upload && sudo cp ./templates/* /var/www/html/upload/
+export PATH="/home/ubuntu/.local/bin:$PATH"
